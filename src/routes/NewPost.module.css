@@ -1,5 +1,5 @@
 .form {
-  background-color: #b93333;
+  background-color: whitesmoke;
   padding: 1rem;
   width: 20rem;
 }
@@ -7,7 +7,7 @@
 .form label {
   display: block;
   margin-bottom: 0.05rem;
-  color: #eadbfb;
+  color: black;
   font-weight: bold;
 }
 
@@ -18,9 +18,10 @@
   font: inherit;
   padding: 0.5rem;
   border-radius: 6px;
-  border: none;
-  background-color: #eadbfb;
-  color: #28262c;
+  border-width: 3px;
+  /* background-color: none; */
+  color: black;
+  border-color: black;
 }
 
 .actions {
@@ -34,22 +35,25 @@
   cursor: pointer;
   font: inherit;
   padding: 0.5rem 1.5rem;
-  border: none;
+  border-width: 3px;
+  border-color: black;
   border-radius: 4px;
-  background-color: #6c155b;
-  color: #e5d5f7;
+  background-color: black;
+  color: whitesmoke;
 }
 
 .actions button:hover {
-  background-color: #28262c;
+  background-color: whitesmoke;
+  border-color: black;
+  color: black;
 }
 
 .actions a {
   background-color: transparent;
   text-decoration: none;
-  color: #e5d5f7;
+  color: black;
 }
 
 .actions a:hover {
-  color: #d1bee6;
+  color: grey;
 }

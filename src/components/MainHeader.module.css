@@ -6,7 +6,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid #ece1fa;
+  border-bottom: 2px solid whitesmoke;
 }
 
 .logo {
@@ -14,7 +14,7 @@
   display: flex;
   gap: 1.5rem;
   align-items: center;
-  color: #ece1fa;
+  color: whitesmoke;
 }
 
 .button {
@@ -22,10 +22,12 @@
   align-items: center;
   gap: 0.5rem;
   padding: 0.75rem 1.5rem;
-  background-color: #ece1fa;
-  color: #2a2630;
-  border: none;
+  background-color: whitesmoke;
+  color: black;
   border-radius: 4px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: whitesmoke;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   font-weight: bold;
@@ -33,6 +35,6 @@
 }
 
 .button:hover {
-  background-color: #2a2630;
-  color: #ece1fa;
+  background-color: black;
+  color: whitesmoke;
 }

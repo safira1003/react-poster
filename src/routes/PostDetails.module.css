@@ -6,7 +6,7 @@
 .author {
   font-size: 0.8rem;
   font-weight: bold;
-  color: #803232;
+  color: black;
   margin: 0;
   text-transform: uppercase;
 }
@@ -15,7 +15,7 @@
   white-space: pre-wrap;
   font-size: 1.25rem;
   margin: 0.25rem 0 0 0;
-  color: #843838;
+  color: grey;
   font-style: italic;
 }
 
